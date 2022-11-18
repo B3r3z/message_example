@@ -18,7 +18,7 @@ USER root
     RUN apt-get update && apt-get install -y\
         bazel \
         protobuf-compiler \
-        install libzmq3-dev
+        libzmq3-dev
     
     #RUN git clone -b main https://github.com/protocolbuffers/protobuf.git
     #RUN cd protobuf 
